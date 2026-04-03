@@ -14,11 +14,11 @@
 
         base_layer {
             bindings = <
-&kp LC(SPACE)  &kp N1  &kp N2    &kp N3  &kp N4    &kp N5                                 &kp N6  &kp N7    &kp N8     &kp N9    &kp N0    &kp BSPC
-&mo 2          &kp Q   &kp W     &kp E   &kp R     &kp T                                  &kp Y   &kp U     &kp I      &kp O     &kp P     &kp DEL
-&mo 3          &kp A   &kp S     &kp D   &kp F     &kp G        &trans     &trans         &kp H   &kp J     &kp K      &kp L     &kp SEMI  &kp SQT
-&kp LSHFT      &kp Z   &kp X     &kp C   &kp V     &kp B        &kp SPACE  &kp ENTER      &kp N   &kp M     &kp COMMA  &kp DOT   &kp FSLH  &kp QMARK
-&kp LCTRL      &none   &kp LALT  &mo 4   &kp BSPC  &lt 2 SPACE  &kp ENTER  &kp LS(ENTER)  &kp AT  &kp BSPC  &kp RALT   &kp RGUI  &none     &kp RIGHT_CONTROL
+&kp LC(SPACE)  &kp N1  &kp N2    &kp N3  &kp N4  &kp N5                                 &kp N6  &kp N7  &kp N8     &kp N9    &kp N0    &kp BSPC
+&mo 2          &kp Q   &kp W     &kp E   &kp R   &kp T                                  &kp Y   &kp U   &kp I      &kp O     &kp P     &kp DEL
+&mo 3          &kp A   &kp S     &kp D   &kp F   &kp G        &trans     &trans         &kp H   &kp J   &kp K      &kp L     &kp SEMI  &kp SQT
+&kp LSHFT      &kp Z   &kp X     &kp C   &kp V   &kp B        &kp SPACE  &kp ENTER      &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp QMARK
+&kp LCTRL      &none   &kp LALT  &none   &none   &lt 2 SPACE  &kp ENTER  &kp LS(ENTER)  &kp AT  &none   &none      &kp RGUI  &none     &kp RIGHT_CONTROL
             >;
         };
 
