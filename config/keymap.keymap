@@ -14,7 +14,7 @@
 
         base_layer {
             bindings = <
-&kp LANG5  &kp N1  &kp N2    &kp N3  &kp N4  &kp N5                               &kp N6     &kp N7  &kp N8     &kp N9          &kp N0          &kp BSPC
+&kp LA(GRV)  &kp N1  &kp N2    &kp N3  &kp N4  &kp N5                               &kp N6     &kp N7  &kp N8     &kp N9          &kp N0          &kp BSPC
 &to 2      &kp Q   &kp W     &kp E   &kp R   &kp T                                &kp Y      &kp U   &kp I      &kp O           &kp P           &kp DEL
 &to 3      &kp A   &kp S     &kp D   &kp F   &kp G      &kp F2     &kp AT_SIGN    &kp H      &kp J   &kp K      &kp L           &kp MINUS       &mt SLASH SQT
 &kp LSHFT  &kp Z   &kp X     &kp C   &kp V   &kp B      &kp F5     &kp RS(ENTER)  &kp N      &kp M   &kp COMMA  &kp DOT         &kp UP_ARROW    &mt EXCLAMATION QMARK
