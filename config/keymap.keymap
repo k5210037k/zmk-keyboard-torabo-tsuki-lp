@@ -14,11 +14,11 @@
 
         base_layer {
             bindings = <
-&kp LANG5  &kp N1  &kp N2    &kp N3  &kp N4  &kp N5                                 &kp N6     &kp N7  &kp N8     &kp N9     &kp N0    &kp BSPC
-&mo 2      &kp Q   &kp W     &kp E   &kp R   &kp T                                  &kp Y      &kp U   &kp I      &kp O      &kp P     &kp DEL
-&mo 3      &kp A   &kp S     &kp D   &kp F   &kp G        &kp F2     &kp AT_SIGN    &kp H      &kp J   &kp K      &kp L      &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z   &kp X     &kp C   &kp V   &kp B        &kp F5     &kp RS(ENTER)  &kp N      &kp M   &kp COMMA  &kp DOT    &kp FSLH  &kp QMARK
-&kp LCTRL  &none   &kp LALT  &none   &none   &lt 2 SPACE  &kp ENTER  &kp ENTER      &mkp LCLK  &none   &none      &kp MINUS  &none     &kp RIGHT_CONTROL
+&kp LANG5  &kp N1  &kp N2    &kp N3  &kp N4  &kp N5                               &kp N6     &kp N7  &kp N8     &kp N9          &kp N0          &kp BSPC
+&mo 2      &kp Q   &kp W     &kp E   &kp R   &kp T                                &kp Y      &kp U   &kp I      &kp O           &kp P           &kp DEL
+&mo 3      &kp A   &kp S     &kp D   &kp F   &kp G      &kp F2     &kp AT_SIGN    &kp H      &kp J   &kp K      &kp L           &kp MINUS       &mt SLASH SQT
+&kp LSHFT  &kp Z   &kp X     &kp C   &kp V   &kp B      &kp F5     &kp RS(ENTER)  &kp N      &kp M   &kp COMMA  &kp DOT         &kp UP_ARROW    &mt EXCLAMATION QMARK
+&kp LCTRL  &none   &kp LALT  &none   &none   &kp SPACE  &kp ENTER  &kp ENTER      &mkp LCLK  &none   &none      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
         };
 
