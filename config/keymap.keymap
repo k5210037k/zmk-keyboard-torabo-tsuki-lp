@@ -18,17 +18,17 @@
 &kp LA(GRAVE)  &kp Q   &kp W   &kp E   &kp R   &kp T                                &kp Y      &kp U   &kp I      &kp O           &kp P           &kp DEL
 &kp LEFT_ALT   &kp A   &kp S   &kp D   &kp F   &kp G      &kp F2     &kp LBKT       &kp H      &kp J   &kp K      &kp L           &kp MINUS       &mt SLASH SQT
 &kp LSHFT      &kp Z   &kp X   &kp C   &kp V   &kp B      &kp F5     &kp RS(ENTER)  &kp N      &kp M   &kp COMMA  &kp DOT         &kp UP_ARROW    &mt EXCLAMATION QMARK
-&kp LCTRL      &mo 4   &mo 3   &mo 2   &mo 1   &kp SPACE  &kp ENTER  &kp ENTER      &mkp LCLK  &none   &none      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+&kp LCTRL      &to 4   &to 3   &to 2   &to 1   &kp SPACE  &kp ENTER  &kp ENTER      &mkp LCLK  &none   &none      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
         };
 
         mouse_layer {
             bindings = <
-&to 0   &trans        &trans          &trans           &trans            &trans                  &trans  &trans            &trans           &trans          &trans        &to 0
-&trans  &msc SCRL_UP  &msc SCRL_DOWN  &msc MOVE_Y(30)  &msc MOVE_Y(-30)  &trans                  &trans  &msc MOVE_Y(-30)  &msc MOVE_Y(30)  &msc SCRL_DOWN  &msc SCRL_UP  &trans
-&trans  &mkp LCLK     &mkp RCLK       &mkp MCLK        &mkp MB4          &trans  &trans  &trans  &trans  &mkp LCLK         &mkp RCLK        &kp RC(C)       &kp RC(V)     &trans
-&trans  &kp LC(X)     &kp LC(C)       &kp LC(V)        &kp LC(Z)         &trans  &trans  &trans  &trans  &trans            &trans           &trans          &trans        &trans
-&trans  &trans        &trans          &trans           &trans            &trans  &trans  &trans  &trans  &trans            &trans           &trans          &trans        &trans
+&to 0   &trans        &trans          &trans           &trans            &trans                  &trans  &trans     &trans     &trans     &trans     &to 0
+&trans  &msc SCRL_UP  &msc SCRL_DOWN  &msc MOVE_Y(30)  &msc MOVE_Y(-30)  &trans                  &trans  &trans     &mo 5      &trans     &trans     &trans
+&trans  &mkp LCLK     &mkp RCLK       &mkp MCLK        &mkp MB4          &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &kp RC(C)  &kp RC(V)  &trans
+&trans  &kp LC(X)     &kp LC(C)       &kp LC(V)        &kp LC(Z)         &trans  &trans  &trans  &trans  &trans     &trans     &trans     &trans     &trans
+&trans  &trans        &trans          &trans           &trans            &trans  &trans  &trans  &trans  &trans     &trans     &trans     &trans     &trans
             >;
         };
 
@@ -59,6 +59,16 @@
 &trans  &kp LC(Z)    &kp LC(Y)     &kp LC(C)      &kp LC(V)  &kp LC(A)  &trans  &trans  &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp K_APP  &trans
 &trans  &kp LC(X)    &kp LC(S)     &kp ESC        &kp TAB    &kp DEL    &trans  &trans  &trans    &trans     &trans     &trans     &trans     &trans
 &trans  &trans       &trans        &trans         &trans     &trans     &trans  &trans  &trans    &trans     &trans     &trans     &trans     &trans
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
